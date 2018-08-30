@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+a:focus, a:active {
+  color: inherit;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+.loading-gif {
+  position: relative;
+  width: 80px;
+  margin: 0 auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%)
+}
